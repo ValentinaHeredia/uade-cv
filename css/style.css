@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Open+Sans:wght@300&family=PT+Serif&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -9,4 +10,217 @@ body{
 
 h1{
     text-align: center;
+}
+
+/* css navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+    background-color: #B39674;
+    width: 15%;
+    height: 80px;
+    margin-top: 5px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+
+}
+
+.here{
+    background-color: #513D25;
+}
+
+.home{
+    padding: 10% 36% 10% 36%;
+}
+
+.estudios{
+    padding: 10% 31% 10% 31%;
+}
+
+.conocimientos{
+    padding: 10% 18% 10% 18%;
+}
+
+.experiencia{
+    padding: 10% 22% 10% 22%;
+}
+
+.contacto{
+    padding: 10% 30% 10% 30%;
+}
+
+/* Fin de navbar */
+
+/* Comienzo footer */
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #114A63;
+    color: white;
+    height: 100px;
+}
+
+/* Css paginas general */
+
+.conteiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box-esp{
+    background-color: #345751;
+    border-radius: 10px;
+    color: rgb(160, 197, 191);
+    font-size: 1.5em;
+    width: 507px;
+    height: 517px;
+    font-family: 'Noto Serif', serif;
+}
+
+.box-eng{
+    background-color: #D4CA85;
+    border-radius: 10px;
+    color: rgb(65, 64, 23);
+    font-size: 1.5em;
+    width: 507px;
+    height: 517px;
+    font-family: 'Noto Serif', serif;
+}
+
+.box-cont{
+    background-color: #448D84;
+    width: 507px;
+    height: 508px;
+    border-radius: 10px;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.5em;
+    color: rgb(208, 224, 222);
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #3B7382;
+    border-radius: 10px;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: white;
+    font-size: 3em;
+}
+
+/* box por pagina */
+
+.box-conocimiento{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.conteiner-contacto{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.box-contacto{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.box-estudios{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    justify-content: center;
+}
+
+.title-estudios{
+    margin-top: 50px;
+}
+
+.box-experiencia{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    font-size: 1.8em;
+    justify-content: center;
+}
+
+.text-experiencia{
+    margin-top:50px;
+}
+
+/* Inicio */
+
+.box-img{
+    background-color: #2E2923;
+    width: 300px;
+    height: 402px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 0;
+}
+
+.box-inicio{
+    flex-direction: column;
+    display: flex;
+    padding: 2%;
+    justify-content: center;
+}
+
+.title-inicio{
+    font-size: 2em;
+    margin-bottom: 2%;
+}
+.box-esp-inicio{
+    background-color: #345751;
+    border-radius: 10px;
+    color: rgb(160, 197, 191);
+    font-size: 1.5em;
+    width: 507px;
+    height: 400px;
+    font-family: 'Noto Serif', serif;
+    order: 0;
+}
+
+.box-eng-inicio{
+    background-color: #D4CA85;
+    border-radius: 10px;
+    color: rgb(65, 64, 23);
+    font-size: 1.5em;
+    width: 507px;
+    height: 400px;
+    font-family: 'Noto Serif', serif;
+    order: 0;
+}
+
+.conteiner-inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5%;
 }
