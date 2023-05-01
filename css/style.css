@@ -70,6 +70,7 @@ nav ul li a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
     background-color: #114A63;
     color: white;
     height: 100px;
