@@ -39,6 +39,10 @@ nav ul li a{
 
 }
 
+nav ul li:hover{
+    background-color: #2E2923;
+}
+
 .here{
     background-color: #513D25;
 }
