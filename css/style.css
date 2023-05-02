@@ -336,7 +336,7 @@ h1{
     }
     
     .conocimientos{
-        padding: 5% 20% 5% 20%;
+        padding: 5% 25% 5% 25%;
     }
     
     .experiencia{
@@ -439,13 +439,13 @@ h1{
     .box-esp{
         font-size: 1em;
         width: 80%;
-        height: 517px;
+        height: 417px;
     }
 
     .box-eng{
         font-size: 1em;
         width: 80%;
-        height: 517px;
+        height: 417px;
         margin-top: 10px;
 
     }
