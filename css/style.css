@@ -342,13 +342,13 @@ h1{
     }
 
     .box-esp-inicio{
-        font-size: 1em;
+        font-size: 1.5em;
         width: 80%;
         height: 317px;
         order: 2;
     }
     .box-eng-inicio{
-        font-size: 1em;
+        font-size: 1.5em;
         order:3;
         width: 80%;
         height: 317px;
@@ -443,5 +443,18 @@ h1{
         height: 508px;
         border-radius: 10px;
         font-size: 1em;
+    }
+    .box-esp-inicio{
+        font-size: 1em;
+        width: 80%;
+        height: 317px;
+        order: 2;
+    }
+    .box-eng-inicio{
+        font-size: 1em;
+        order:3;
+        width: 80%;
+        height: 317px;
+        margin-top: 10px;
     }
 }
