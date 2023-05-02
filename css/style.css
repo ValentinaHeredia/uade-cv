@@ -133,7 +133,11 @@ h1{
     padding: 2%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
+}
+
+.title-conocimiento{
+    margin-top: 50px;
 }
 
 .conteiner-contacto{
@@ -141,6 +145,10 @@ h1{
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.title-contacto{
+    margin-top: 50px;
 }
 
 .box-contacto{
